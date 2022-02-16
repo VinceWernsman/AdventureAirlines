@@ -20,19 +20,18 @@ public class Main {
 
         Random random = new Random(System.currentTimeMillis());
 
-
+        seats1 pricingModel = new seats1 ();
+        pricingModel.setFirstClassSeatPrice(500);
+        pricingModel.setBusinessClassSeatPrice(200);
+        pricingModel.setEconomyClassSeatPrice(150);
 
 
     if (userClassSelection == 1) {System.out.println("Thank you for selecting First Class, your seat number is " +
-            firstClassSeat[random.nextInt(9)] + ".");}
+            firstClassSeat[random.nextInt(9)] + ". " + " Your flight price is $" + pricingModel.getFirstClassSeatPrice());}
     if (userClassSelection == 2) {System.out.println("Thank you for selecting Business Class, your seat number is " +
-            businessClassSeat[random.nextInt(9)] + ".");}
+            businessClassSeat[random.nextInt(9)] + ". " + "Your flight price is $" + pricingModel.getBusinessClassSeatPrice());}
     if (userClassSelection == 3) {System.out.println("Thank you for selecting Economy Class, your seat number is " +
-            economyClassSeat[random.nextInt(9)] + ".");}
-
-
-
-    seats1 pricingModel = new seats1 ();
+            economyClassSeat[random.nextInt(9)] + ". " + "Your flight price is $" + pricingModel.getEconomyClassSeatPrice());}
 
 
 
