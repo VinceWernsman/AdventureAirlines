@@ -20,6 +20,8 @@ public class Main {
 
         Random random = new Random(System.currentTimeMillis());
 
+        System.out.println("testing");
+
 
     if (userClassSelection == 1) {System.out.println("Thank you for selecting First Class, your seat number is " +
             firstClassSeat[random.nextInt(9)] + ".");}
