@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-	// Welecome info
+	// Welcome info
         System.out.println("Welcome to Adventure Airlines please select a number corresponding with your" +
                 " class flight: 1 = First Class, 2 = Business Class, or 3 = Economy Class");
 
