@@ -20,7 +20,7 @@ public class Main {
 
         Random random = new Random(System.currentTimeMillis());
 
-        System.out.println("testing");
+
 
 
     if (userClassSelection == 1) {System.out.println("Thank you for selecting First Class, your seat number is " +
@@ -29,6 +29,10 @@ public class Main {
             businessClassSeat[random.nextInt(9)] + ".");}
     if (userClassSelection == 3) {System.out.println("Thank you for selecting Economy Class, your seat number is " +
             economyClassSeat[random.nextInt(9)] + ".");}
+
+
+
+    seats1 pricingModel = new seats1 ();
 
 
 
